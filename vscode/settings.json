@@ -1,0 +1,65 @@
+{
+    "files.associations": {
+        "*.devenv": "shellscript",
+        "*.xml": "xml"
+    },
+    "files.autoSaveDelay": 0,
+    "editor.renderWhitespace": "boundary",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "gitlens.codeLens.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "explorer.confirmDelete": false,
+    "macros": {
+        "commentLine": [
+            "editor.action.commentLine",
+            "cursorDown"
+        ]
+    },
+    "viceroy.config.lastVersion": "0.35.200833",
+    "files.watcherExclude": {
+        "**/build/**": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/.hg/store/**": true
+    },
+    "files.exclude": {
+        ".viceroy": true,
+        "apollo-overrides": true,
+        "release-info": true,
+        "src/*/build": false,
+        "build": true,
+        "env": true,
+        "packageInfo*": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "search.exclude": {
+        "env": true,
+        "src/*/build": true,
+        "build": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
+    "viceroy.config.internal.lastUpdateTime": "2020-11-06T17:21:53.489Z",
+    "viceroy.doc.welcome.showAtStartup": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.revealIfOpen": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "python.languageServer": "Microsoft",
+    "python.showStartPage": false,
+    "wallaby.suppressExpirationNotifications": true,
+    "workbench.editor.enablePreview": false
+}

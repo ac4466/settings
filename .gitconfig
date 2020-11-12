@@ -1,0 +1,13 @@
+[user]
+    email = ac4466@gmail.com
+    name = Aaron Cheng
+[color]
+    ui = auto
+[core]
+    pager = less -FMRiX
+    excludesfile = /Users/chenaaro/.gitignore
+[push]
+    default = simple
+[alias]
+    dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%cr%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+    hist = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%cr)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --date-order --all
